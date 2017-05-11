@@ -1,0 +1,41 @@
+{
+  "name": "my_product_role_json",
+  "description": "This is a JSON file",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+    "my_third_oracle_cookbook": {
+      "sudo": {
+        "groups": [
+          "oracleadmin",
+          "oracleuser",
+          "oracledba",
+          "oraclemanager"
+        ],
+        "users": [
+          "ashish",
+          "suresh",
+          "ganesh",
+          "ramesh",
+          "sagar",
+          "nilesh",
+          "Krishna",
+          "hari",
+          "oracle"
+        ]
+      }
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[my_java]",
+    "recipe[my_oracle]",
+    "recipe[my_weblogic]",
+    "recipe[my_third_oracle_cookbook]"
+  ],
+  "env_run_lists": {
+
+  }
+}

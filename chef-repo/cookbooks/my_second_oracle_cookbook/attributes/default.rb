@@ -1,0 +1,1 @@
+default['my_second_oracle_cookbook']['testvalue'] = 'my test values of cookbook'

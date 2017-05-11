@@ -1,0 +1,1 @@
+Chef::Log.info("my attribues is #{node['my_second_oracle_cookbook']['testvalue']}")

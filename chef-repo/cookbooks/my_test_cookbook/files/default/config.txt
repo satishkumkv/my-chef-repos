@@ -1,0 +1,2 @@
+This is a test config file
+It can be copied to the nodes

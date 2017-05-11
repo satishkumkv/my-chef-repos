@@ -1,0 +1,1 @@
+default['child']['test_file'] = "child_config"
